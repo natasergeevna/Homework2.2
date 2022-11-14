@@ -96,5 +96,27 @@ public class Main {
         System.out.println("Маша теперь получает " + nMasha + " рублей. Годовой доход вырос на " + rm + "рублей");
         System.out.println("Денис теперь получает " + nDenis + " рублей. Годовой доход вырос на " + rd + "рублей");
         System.out.println("Кристина теперь получает " + nKristina + " рублей. Годовой доход вырос на " + rk + "рублей");
+
+        //task 6*
+        byte a = 12;
+        byte b = 27;
+        byte c = 44;
+        byte d = 15;
+        byte e = 9;
+        int result = a * (b + (c - d * e));
+        result = -result;
+        System.out.println("Наш инвертированный результат выражения = " + result);
+
+        //task 7*
+        int a1 = 5;
+        int b1 = 7;
+        a1 = b1;
+        b1 = (a1 - 2) % a1;
+        System.out.println("a1 = " + a1 + ", b1 = " + b1);
+
+        //task 8*
+        short a2 = 456;
+        int b2 = a2 % 100 / 10;
+        System.out.println("Средняя цифра в переменной а = " + b2);
     }
 }
